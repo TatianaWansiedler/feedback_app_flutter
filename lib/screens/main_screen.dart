@@ -9,6 +9,7 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Feedback'),
+          backgroundColor: const Color.fromRGBO(76, 141, 252, 1),
         ),
         body: const Center(
           child: FeedbackForm(),
